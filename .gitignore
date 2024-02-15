@@ -1,0 +1,26 @@
+# Ignore all __pycache__ folders
+__pycache__/
+
+# 排除所有 .log 文件
+*.log
+
+# 排除名为 db.sqlite3 的数据库文件
+db.sqlite3
+
+# 排除整个 node_modules 文件夹，通常由 Node.js 项目使用
+node_modules/
+
+# 排除 .env 文件，通常用于存储环境变量
+.env
+
+# 排除所有 .pyc 编译的 Python 文件
+*.pyc
+
+# 排除 IDE 设置文件夹
+.idea/
+.vscode/
+
+# 如果你有一个特定于你项目的文件或目录，请将它们添加在这里
+
+# Ignore mac system default files
+.DS_Store
